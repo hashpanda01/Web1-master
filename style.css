@@ -59,7 +59,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   
-  height: 5px;
+  height: 550px;
   align-items: center;
 }
 .width50 {
@@ -69,11 +69,18 @@ img {
   padding: 20px;
 }
 .intro-content >p{
-  font-size:12px;
-  font-family: cursive;
+  font-size:18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: black;
 }
 .logform{
-  
+  display: flex;
+  justify-content: center;
+}
+.imginfo{
+  background-color: lightgrey;
+  padding: 10px 10px 10px 10px;
 }
 .imginfo >ul{
   margin-top: 35px;
@@ -100,6 +107,7 @@ li >img{
   display: flex;
   justify-content: space-between;
   padding:10px 15px;
+  font-weight: bold;
   
   width: 500px;
   
