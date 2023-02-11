@@ -12,15 +12,16 @@
     <!-- navbar starting -->
     <div class="navbarhead">
         <img src="logo.png" width="100px" height="100px">
-        <div class="">
-            <ul class="navbar--menu">
-                <div class="search">
-                     <form action="search.php" method="get">
-                     <input type="text" name="search" maxlength="60" placeholder="Search..." required>
-                     <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+        <div class="nav-right">
+            <div class="search">
+                <form action="search.php" method="get">
+                <input type="text" name="search" maxlength="60" placeholder="Search..." required>
+                <button type="submit"><i class="fa fa-search"></i></button>
+   </form>
 
-                </div>
+           </div>
+           <div>
+            <ul class="navbar--menu">
                 
 
                 <li class="navbar--menu--item"><a href="#about">About</a></li>
@@ -28,20 +29,32 @@
                 <li class="navbar--menu--item"><a href="#contact">Contact</a></li>
             </ul>
         </div>
+        </div>
     </div>
 
 <!-- introdcution for colg -->
 <div class="introhead">
     <div class="intro-content width50">
-      <p>Sri Sairam Engineering College is an engineering institution located in the suburbs of Chennai, Tamil Nadu, India. The college is self-financing and autonomous college in Chennai.It was established in 1995 by Leo Muthu founder chairman of Leo Muthu Educational Trust.The institution is affiliated to Anna University and approved by the All India Council for Technical Education (AICTE), New Delhi.Imbibed with the message of Shridi Saibaba, our Chairman ventured into the realm of providing quality technical education to both urban and rural students from Tamilnadu as well as from other states, offering a flexible and real world based learning approach and global ambience in pursuing education.</p>
+      <p >Sri Sairam Engineering College is an engineering institution located in the suburbs of Chennai, Tamil Nadu, India. The college is self-financing and autonomous college in Chennai.It was established in 1995 by Leo Muthu founder chairman of Leo Muthu Educational Trust.The institution is affiliated to Anna University and approved by the All India Council for Technical Education (AICTE), New Delhi.Imbibed with the message of Shridi Saibaba, our Chairman ventured into the realm of providing quality technical education to both urban and rural students from Tamilnadu as well as from other states, offering a flexible and real world based learning approach and global ambience in pursuing education.</p>
     </div>
     <div class="logform width50">
-      <form action="" method="get">
-        <label for="email">EMAIL-ID:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="phno">PHONE NO.:</label>
-        <input type="tel(number)" id="phno" name="phno"><br><br>
-        <input type ="submit" value="Register">
+      <form action="" method="get" class="form">
+
+
+    <div class="form-control">
+        <label for="email">EMAIL-ID: </label>
+        <input class="form-input" type="email" id="email" name="email">
+    </div>
+    <div class="form-control">
+        <label for="phno">PHONE NO: </label>
+        <input class="form-input"  type="tel(number)" id="phno" name="phno">
+       
+    </div>
+
+  <div class="form-button">
+   <button class="form-reg" type="submit">Register</button>
+   <button class="form-contact" type="submit">Contact</button>
+  </div>
       </form>
     </div>
 </div>
