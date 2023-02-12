@@ -92,9 +92,9 @@ img {
 }
 
  .form{
-  background-color: grey;
-  padding: 15px 15px;
-  box-shadow: 0 0 10px 10px;
+  background-color: #dfe1e5;
+  padding: 25px 25px;
+  box-shadow: 0 0 3px 3px;
  } 
   
   
@@ -183,7 +183,7 @@ li > img {
 }
 .form-reg {
   background-color: #008cba;
-  width: 130px;
+  width: 110px;
   height: 40px;
   border-radius: 7px;
   color: #fff;
@@ -193,7 +193,7 @@ li > img {
 
 .form-contact {
   background-color: #008cba;
-  width: 130px;
+  width: 110px;
   height: 40px;
   border-radius: 7px;
   color: #fff;
