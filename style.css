@@ -70,7 +70,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 550px;
+  height: 100vh-70px;
   align-items: center;
 }
 .width50 {
