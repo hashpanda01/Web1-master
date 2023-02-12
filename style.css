@@ -88,11 +88,14 @@ img {
 .logform {
   display: flex;
   justify-content: center;
-  box-shadow: 5px 5px lightgray
-  background-color:none;
+  
 }
 
-  
+ .form{
+  background-color: grey;
+  padding: 15px 15px;
+  box-shadow: 0 0 10px 10px;
+ } 
   
   
   
