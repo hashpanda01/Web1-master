@@ -88,16 +88,16 @@ img {
 .logform {
   display: flex;
   justify-content: center;
+  box-shadow: 5px 5px lightgray
+  background-color:none;
 }
-.form {
-  box-sizing: border-box;
 
-  border-width: 2px;
   
-   border: 2px solid; 
-  margin: 35px;
-  padding: 35px;
-}
+  
+  
+  
+  
+
 
 .imginfo {
   background-color: lightgrey;
@@ -137,7 +137,7 @@ li > img {
 }
 .foot {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 .footer {
   background-color: black;
@@ -149,10 +149,7 @@ li > img {
   padding-bottom: 40px;
   margin-top: 20px;
 }
-.list {
-  margin-right: 40px;
-  padding-left: 15px;
-}
+
 .list > li {
   list-style-type: none;
   margin: 10px 0;
